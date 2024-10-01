@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    width: 50%;
+    height: 80px;
+    resize: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 50%;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    background-color: #1da1f2;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0f8bff;
+}
+#logoutForm button {
+    width: 100%; 
+    padding: 8px;
+    background-color: #1da1f2;
+    color: #ffffff;
+}
+#fetchUserForm button,
+.post_comment_button {
+    width: 23%;
+    
+    padding: 8px;
+    background-color: #1da1f2;
+    color: #ffffff;
+}
+/* Post styles */
+.post {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%; 
+    max-width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#postForm {
+    width: 100%; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+#postForm textarea {
+    width: 100%; 
+}
+
+#postForm button {
+    width: 20%; 
+}
+.like_button {
+    width: 20%; 
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    background-color: #1da1f2;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.like_button:hover {
+    background-color: #0f8bff;
+}
+.commentForm {
+    margin-top: 20px; 
+}
+
+.comment {
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+}
+
+.comment p {
+    font-size: 14px; 
+    margin: 0; 
+}
+
+.comment a {
+    color: #1da1f2;
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.comment a:hover {
+    text-decoration: underline;
+}
+
+.edit-button {
+    width: 20%; 
+    padding: 4px 8px; 
+    font-size: 12px;
+    border: 1px solid #000; 
+    color: #000; 
+    background-color: #fff; 
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.delete-button {
+    width: 20%; 
+    padding: 4px 8px; 
+    font-size: 12px; 
+    border: 1px solid #000; 
+    color: #000; 
+    background-color: #fff; 
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.report-button {
+    width: 20%; 
+    padding: 4px 8px; 
+    font-size: 12px; 
+    border: 1px solid #000; 
+    color: #000; 
+    background-color: #fff; 
+    cursor: pointer;
+}
+
+.report-button:hover {
+    background-color: #000; 
+    color: #fff; 
+}
+
+#myprofile button {
+    background-color: #4CAF50; 
+    width: 100%;
+    border: none;
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; 
+  }
+  #myprofile button:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1DA1F2; 
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header form {
+    margin-right: 10px;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+header button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-stats {
+    display: flex;
+    margin-top: 10px;
+}
+
+.profile-stats div {
+    margin-right: 20px;
+    text-align: center;
+}
+
+/* User Tweets Section */
+.user-tweets {
+    margin-top: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.tweet {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tweet h2 {
+    margin-top: 0;
+}
+
+.tweet-actions {
+    margin-top: 10px;
+}
+
+.tweet-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #1DA1F2;
+    color: #fff;
+    cursor: pointer;
+}
